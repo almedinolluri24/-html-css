@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regjistrimi dhe Artikuj</title>
+    <link rel="stylesheet" href="style.css"> <!-- Lidhja me stilin CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> <!-- Bootstrap për stilizimin -->
+</head>
+<body>
+
+    <style>
+        body{
+            background-color: #008080;
+            
+        }
+    </style>
+        <div class="photo-container">
+            <img src="imge/tek.jpg" alt="Logo Teknologjike" class="glow-photo">
+        </div>
+
+    <div class="container mt-5" >
+        <h2 class="text-center" >Regjistrohu</h2>
+        <form action="/submit_registration"   method="POST">
+            <div class="form-group">
+                <label for="username" style="color: blue; ">Email</label>
+                <input type="text" class="form-control" id="Email" name="Email" required style="border-radius: 100px;">
+            </div>
+            <div class="form-group">
+                <label for="password" style="color: red;">Password</label>
+                <input type="password" class="form-control" id="password" name="password" required style="border-radius: 100px;">
+            </div>
+            <button type="submit" class="btn btn-primary btn-block" style=" border-radius: 100px;box-shadow: 0 0 1px blue ,0 0 6px blue ; background-color: rgb(42, 42, 250);">Regjistrohu</button>
+        </form>
+
+        <div class="mt-4">
+            <h3 >Artikujt e fundit</h3>
+            <div class="card mb-3" style="border-radius: 30px;">
+                <div class="card-body">
+                    <h5 class="card-title" >Artikulli 1</h5>
+                    <a href="articles.html" class="btn btn-primary"  style="border-radius: 100px; box-shadow: 0 0 1px blue ,0 0 6px blue ; background-color: blue; ">Lexo më shumë</a>
+                </div>
+            </div>
+
+           
+        </div>
+    </div>
+</body>
+</html>
